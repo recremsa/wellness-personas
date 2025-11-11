@@ -19,7 +19,7 @@ try:
 except Exception:
     _train_stats = None
 
-st.title("Wellness Personas")
+st.title("Wellness Personas by Md.Nafiul Islam")
 st.write("Enter your habits (4 numbers) and the app tells which persona you match.")
 st.sidebar.header("How It Works 🧠")
 st.sidebar.write("""
@@ -161,4 +161,5 @@ with right:
     if st.button("Reset"):
         st.session_state.clear()
         st.rerun()
+
 
